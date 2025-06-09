@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 from bot_logic import gen_pass
 
+#Programa en donde aprendimos a usar la clase Bot.
+
 intents = discord.Intents.default()
 intents.message_content = True
 
